@@ -13,7 +13,7 @@ A simple Nagios check that receives data from an HTTP API and filters it using r
 
 ## Example
 ```
-python Nagios_CheckHttpRegEx_Perfdata.py -u [your_url] -n [your_username] -p [your_parrword] -r "[your_regex]" -w [your_warning_limit] -c [your_critical_limit]
+python Nagios_CheckHttpRegEx_Perfdata.py -u [your_url] -n [your_username] -p [your_password] -r "[your_regex]" -w [your_warning_limit] -c [your_critical_limit]
 ```
 Returns:
 ```
